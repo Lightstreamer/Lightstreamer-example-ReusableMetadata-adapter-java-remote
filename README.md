@@ -1,6 +1,8 @@
-# Lightstreamer - Reusable Metadata Adapters - Remote Java Adapter
+# Lightstreamer - Reusable Metadata Adapters - Java Remote Adapter
 
 <!-- START DESCRIPTION lightstreamer-example-reusablemetadata-adapter-java-remote -->
+
+**NOTE: At this stage, the Remote Java Adapter SDK, which is required to run this demo, is not yet distributed. Get in touch with Lightstreamer support if interested in a preview.**
 
 This project includes a simple full implementation of Remote Metadata Adapter in Java made available as sample for inspiration and/or extension.
 
@@ -40,13 +42,12 @@ As said, the class files for com.lightstreamer.adapters.remote.metadata.LiteralB
 The LiteralBasedProvider can be configured through suitable initialization parameters. See the class documentation for details.
 
 ## See Also
-<!-- START RELATED_ENTRIES -->
+* [Adapter Remoting Infrastructure Network Protocol Specification](http://www.lightstreamer.com/latest/Lightstreamer_Allegro-Presto-Vivace_6_0_Colosseo/Lightstreamer/DOCS-SDKs/sdk_adapter_remoting_infrastructure/doc/ARI%20Protocol.pdf)
 
+### Related Projects
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters - .NET Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-dotnet)
 * [Lightstreamer - Stock-List Demo - Java Remote Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java-remote)
-
-<!-- END RELATED_ENTRIES -->
 
 ## Lightstreamer Compatibility Notes
 
