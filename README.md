@@ -2,8 +2,6 @@
 
 <!-- START DESCRIPTION lightstreamer-example-reusablemetadata-adapter-java-remote -->
 
-**NOTE: At this stage, the Remote Java Adapter SDK, which is required to run this demo, is not yet distributed. Get in touch with Lightstreamer support if interested in a preview.**
-
 This project includes a simple full implementation of Remote Metadata Adapter in Java made available as sample for inspiration and/or extension.
 
 ## LiteralBasedProvider Metadata Adapter
@@ -20,7 +18,7 @@ Its binaries are included in the Java Remote Adapter SDK library.
 ## Build
 
 Before you can compile the adapter, some dependencies need to be solved:
-* Get the Lightstreamer Java Remote Adapter library `ls-adapter-remote.jar` file from the `DOCS-SDKs/sdk_adapter_java_remote/lib` folder of the latest [Lightstreamer 6.0 (Beta)](http://download.lightstreamer.com/#next) distribution, and put it in a temporary folder, let's call it `compile_libs`.
+* Get the Lightstreamer Java Remote Adapter library `ls-adapter-remote.jar` file from the `DOCS-SDKs/sdk_adapter_java_remote/lib` folder of the [latest Lightstreamer distribution](http://download.lightstreamer.com/#current), and put it in a temporary folder, let's call it `compile_libs`.
 
 Note that `ls-adapter-remote.jar` already includes the class files for com.lightstreamer.adapters.metadata.LiteralBasedProvider; we can ignore that for a moment.
 If you are testing your own modified version of the LiteralBasedProvider code, take care of changing the package name, or, at least, the class name.
@@ -42,7 +40,7 @@ As said, the class files for com.lightstreamer.adapters.remote.metadata.LiteralB
 The LiteralBasedProvider can be configured through suitable initialization parameters. See the [class documentation](http://www.lightstreamer.com/docs/adapter_java_remote_api/com/lightstreamer/adapters/remote/metadata/LiteralBasedProvider.html) for details.
 
 ## See Also
-* [Adapter Remoting Infrastructure Network Protocol Specification](http://www.lightstreamer.com/latest/Lightstreamer_Allegro-Presto-Vivace_6_0_Colosseo/Lightstreamer/DOCS-SDKs/sdk_adapter_remoting_infrastructure/doc/ARI%20Protocol.pdf)
+* [Adapter Remoting Infrastructure Network Protocol Specification](http://www.lightstreamer.com/docs/ARI_base/ARI%20Protocol.pdf)
 
 ### Related Projects
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
