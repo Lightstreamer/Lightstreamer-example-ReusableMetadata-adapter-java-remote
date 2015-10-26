@@ -6,7 +6,7 @@ This project includes a simple full implementation of Remote Metadata Adapter in
 
 ## LiteralBasedProvider Metadata Adapter
 
-The LiteralBasedProvider is the Remote equivalent of the *LiteralBasedProvider* Metadata Adapter in [Lightstreamer - Reusable Metadata Adapters - Java Adapters](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java).
+The LiteralBasedProvider is the Remote equivalent of the *LiteralBasedProvider* Metadata Adapter in [Lightstreamer - Reusable Metadata Adapters - Java Adapters](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java).
 It extends the [com.lightstreamer.adapters.remote.MetadataProviderAdapter](http://www.lightstreamer.com/docs/adapter_java_remote_api/com/lightstreamer/adapters/remote/MetadataProviderAdapter.html) abstract class (which in turn implements the [com.lightstreamer.adapters.remote.MetadataProvider](http://www.lightstreamer.com/docs/adapter_java_remote_api/com/lightstreamer/adapters/remote/MetadataProvider.html) interface).
 It is used in Lightstreamer examples and demos based on the Java Remote Adapter SDK, in combination with suitable Data Adapters and Clients.
 Its binaries are included in the Java Remote Adapter SDK library.
@@ -43,9 +43,9 @@ The LiteralBasedProvider can be configured through suitable initialization param
 * [Adapter Remoting Infrastructure Network Protocol Specification](http://www.lightstreamer.com/docs/adapter_generic_base/ARI%20Protocol.pdf)
 
 ### Related Projects
-* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters - .NET Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-dotnet)
-* [Lightstreamer - Stock-List Demo - Java Remote Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java-remote)
+* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - .NET Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-dotnet)
+* [Lightstreamer - Stock-List Demo - Java Remote Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java-remote)
 
 ## Lightstreamer Compatibility Notes
 
