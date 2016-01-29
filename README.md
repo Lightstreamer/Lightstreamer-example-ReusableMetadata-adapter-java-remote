@@ -24,12 +24,10 @@ Note that `ls-adapter-remote.jar` already includes the class files for com.light
 If you are testing your own modified version of the LiteralBasedProvider code, take care of changing the package name, or, at least, the class name.
 
 Now you can generate the jar for the sample Metadata Adapter, let's call it `ls-generic-adapter-remote.jar`, with the following commands:
-```sh
-  >mkdir tmp_classes
-
-  >javac -source 1.7 -target 1.7 -nowarn -g -classpath compile_libs/ls-adapter-remote.jar -sourcepath src -d tmp_classes src/com/lightstreamer/adapters/remote/metadata/LiteralBasedProvider.java
-
-  >jar cvf ls-generic-adapter-remote.jar -C tmp_classes com/lightstreamer
+```
+ > mkdir tmp_classes
+ > javac -source 1.7 -target 1.7 -nowarn -g -classpath compile_libs/ls-adapter-remote.jar -sourcepath src -d tmp_classes src/com/lightstreamer/adapters/remote/metadata/LiteralBasedProvider.java
+ > jar cvf ls-generic-adapter-remote.jar -C tmp_classes com/lightstreamer
 ```
 
 ### Deploy
