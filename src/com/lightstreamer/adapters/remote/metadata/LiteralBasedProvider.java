@@ -121,7 +121,6 @@ public class LiteralBasedProvider extends MetadataProviderAdapter {
      * @param sessionID A Session ID. Not used.
      * @param itemList An Item List specification.
      * @return An array with the names of the Items in the List.
-     * @throws ItemsException never thrown in this case.
      */
     @Override
     public String[] getItems(String user, String sessionID, String itemList) {
@@ -140,7 +139,6 @@ public class LiteralBasedProvider extends MetadataProviderAdapter {
      * is to be applied to.
      * @param fieldList A Field List specification.
      * @return An array with the names of the Fields in the List.
-     * @throws SchemaException never thrown in this case.
      */
     @Override
     public String[] getSchema(String user, String sessionID, String itemList, String fieldList) {
@@ -159,7 +157,6 @@ public class LiteralBasedProvider extends MetadataProviderAdapter {
      * header found in the HTTP request that originated the call. Not used.
      * @throws AccessException if a list of User names has been configured
      * and the supplied name does not belong to the list.
-     * @throws CreditsException never thrown.
      */
     @Override
     public void notifyUser(String user, String password, Map<String,String> httpHeaders) throws AccessException {
