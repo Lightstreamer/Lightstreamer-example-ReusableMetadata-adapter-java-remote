@@ -18,7 +18,7 @@ Its binaries are included in the Java Remote Adapter SDK library.
 ## Build
 
 Before you can compile the adapter, some dependencies need to be solved:
-* Get the Lightstreamer Java Remote Adapter library `ls-adapter-remote.jar` file from the `DOCS-SDKs/sdk_adapter_java_remote/lib` folder of the [latest Lightstreamer distribution](http://download.lightstreamer.com/#current), and put it in a temporary folder, let's call it `compile_libs`.
+* Get the Lightstreamer Java Remote Adapter library `ls-adapter-remote.jar` file from the `DOCS-SDKs/sdk_adapter_java_remote/lib` folder of the [latest Lightstreamer distribution](http://www.lightstreamer.com/download/), and put it in a temporary folder, let's call it `compile_libs`.
 
 Note that `ls-adapter-remote.jar` already includes the class files for com.lightstreamer.adapters.metadata.LiteralBasedProvider; we can ignore that for a moment.
 If you are testing your own modified version of the LiteralBasedProvider code, take care of changing the package name, or, at least, the class name.
