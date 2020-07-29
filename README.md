@@ -7,7 +7,7 @@ This project includes a simple full implementation of Remote Metadata Adapter in
 ## LiteralBasedProvider Metadata Adapter
 
 The LiteralBasedProvider is the Remote equivalent of the *LiteralBasedProvider* Metadata Adapter in [Lightstreamer - Reusable Metadata Adapters - Java Adapters](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java).
-It extends the [com.lightstreamer.adapters.remote.MetadataProviderAdapter](http://www.lightstreamer.com/docs/adapter_java_remote_api/com/lightstreamer/adapters/remote/MetadataProviderAdapter.html) abstract class (which in turn implements the [com.lightstreamer.adapters.remote.MetadataProvider](http://www.lightstreamer.com/docs/adapter_java_remote_api/com/lightstreamer/adapters/remote/MetadataProvider.html) interface).
+It extends the [com.lightstreamer.adapters.remote.MetadataProviderAdapter](https://lightstreamer.com/api/ls-adapter-remote/latest/com/lightstreamer/adapters/remote/MetadataProviderAdapter.html) abstract class (which in turn implements the [com.lightstreamer.adapters.remote.MetadataProvider](https://lightstreamer.com/api/ls-adapter-remote/latest/com/lightstreamer/adapters/remote/MetadataProvider.html) interface).
 It is used in Lightstreamer examples and demos based on the Java Remote Adapter SDK, in combination with suitable Data Adapters and Clients.
 Its binaries are included in the Java Remote Adapter SDK library.
 
@@ -35,10 +35,10 @@ Now you can generate the jar for the sample Metadata Adapter, let's call it `ls-
 To use the Metadata Adapter just built in some Remote Server, just include the `ls-generic-adapter-remote.jar` library in addition to `ls-adapter-remote.jar`.
 As said, the class files for com.lightstreamer.adapters.remote.metadata.LiteralBasedProvider are already included in `ls-adapter-remote.jar`; hence this step is not needed for the LiteralBasedProvider.
 
-The LiteralBasedProvider can be configured through suitable initialization parameters. See the [class documentation](http://www.lightstreamer.com/docs/adapter_java_remote_api/com/lightstreamer/adapters/remote/metadata/LiteralBasedProvider.html) for details.
+The LiteralBasedProvider can be configured through suitable initialization parameters. See the [class documentation](https://lightstreamer.com/api/ls-adapter-remote/latest/com/lightstreamer/adapters/remote/metadata/LiteralBasedProvider.html) for details.
 
 ## See Also
-* [Adapter Remoting Infrastructure Network Protocol Specification](http://www.lightstreamer.com/docs/adapter_generic_base/ARI%20Protocol.pdf)
+* [Adapter Remoting Infrastructure Network Protocol Specification](https://lightstreamer.com/api/ls-generic-adapter/latest/ARI%20Protocol.pdf)
 
 ### Related Projects
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
