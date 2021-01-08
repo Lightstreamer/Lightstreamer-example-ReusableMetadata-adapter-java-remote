@@ -2,6 +2,8 @@
 
 <!-- START DESCRIPTION lightstreamer-example-reusablemetadata-adapter-java-remote -->
 
+<b>WARNING. This project is obsolete, the relevant code has been merged into this project [Lightstreamer Java Remote Adapter SDK](https://github.com/Lightstreamer/Lightstreamer-lib-adapter-java-remote#literalbasedprovider-metadata-adapter); which you need to refer to for an updated version of the LiteralBasedProvider Metadata Adapter.</b>
+
 This project includes a simple full implementation of Remote Metadata Adapter in Java made available as sample for inspiration and/or extension.
 
 ## LiteralBasedProvider Metadata Adapter
